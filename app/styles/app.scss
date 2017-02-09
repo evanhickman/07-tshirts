@@ -4,3 +4,63 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 @import 'box-sizing';
+@import 'resets';
+
+$c-brand-primary: #3473b5;
+$c-brand-white: #fff;
+$c-pink: #e577aa;
+$c-blue: #72bbe9;
+$c-green: #7abe93;
+$c-yellow: #e5b178;
+$gutter: 1rem;
+$max-content-width: 60rem;
+
+.section {
+  padding: 2rem 1rem;
+  // background-color: salmon;
+}
+
+.container {
+  max-width: $max-content-width;
+  margin: 0 auto;
+  // background: wheat;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  // background: powderblue;
+
+  &__item {
+    flex-basis: calc(100% / 3 - 1rem - 1rem);
+    margin: $gutter;
+    // background: sandybrown;
+  }
+}
+
+.shop-card {
+  // background: tomato;
+
+  &__info {
+    // background: yellow;
+    text-align: center;
+  }
+
+  &__options {
+    // background: lightseagreen;
+  }
+
+  &__pic {
+    max-width: 100%;
+  }
+}
+
+.dropdown__list {
+  display: none;
+}
+
+.button-bar {
+  display: flex;
+  justify-content: space-between;
+}
