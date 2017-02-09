@@ -1,5 +1,17 @@
+$c-brand-primary: #3473b5;
+$c-brand-white: #fff;
+$c-pink: #e577aa;
+$c-blue: #72bbe9;
+$c-green: #7abe93;
+$c-yellow: #e5b178;
+$gutter: 1rem;
+$max-content-width: 60rem;
+$border-primary: medium $c-brand-primary solid;
+
 body {
   margin: 0;
+  background: $c-brand-white;
+  color: $c-brand-primary;
   font-family: helvetica, sans-serif;
 }
 
