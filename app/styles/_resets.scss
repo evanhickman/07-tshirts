@@ -1,12 +1,3 @@
-// @import 'yoga';
-// @import 'normalize';
-
-$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-@import 'font-awesome';
-@import 'box-sizing';
-@import 'resets';
-@import 'layout';
-
 $c-brand-primary: #3473b5;
 $c-brand-white: #fff;
 $c-pink: #e577aa;
@@ -17,4 +8,19 @@ $gutter: 1rem;
 $max-content-width: 60rem;
 $border-primary: medium $c-brand-primary solid;
 
-@import 'mobile';
+body {
+  margin: 0;
+  background: $c-brand-white;
+  color: $c-brand-primary;
+  font-family: helvetica, sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  align-self: center;
+  max-width: 100%;
+}
