@@ -19,14 +19,19 @@
 
   &__item {
     flex-basis: calc(100% / 3 - 1rem - 1rem);
+    flex-grow: 1;
     min-width: 15rem;
     margin: $gutter;
-    border: $border-primary;
     // background: sandybrown;
   }
 }
 
 .shop-card {
+  display: flex;
+  flex-direction: column;
+  border: $border-primary;
+  background: $c-brand-white;
+
   // background: tomato;
 
   &__info {
@@ -54,7 +59,6 @@
 
 .dropdown {
   position: relative;
-  background: $c-brand-white;
   // padding: 0.5rem;
 
   &__list {
